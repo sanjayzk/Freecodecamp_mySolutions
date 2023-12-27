@@ -1,5 +1,6 @@
 html{
   font-family: Poppins;
+  scroll-behavior: smooth;
 }
 
 header{
@@ -24,6 +25,7 @@ header h1{
   height: 100vh;
   width: 100%;
   background-color: grey;
+  font-size: 25px;
 }
 
 h1,h2{
@@ -65,11 +67,18 @@ nav ul {
 
 nav li {
   padding: 10px;
+  color:white;
+  text-decoration: none;
 }
 
-nav{
-
+a{
+  color: black;
 }
+
+nav li:hover{
+  background-color: white;
+}
+
 
 a {
   text-decoration: none;
@@ -111,3 +120,14 @@ figcaption{
   margin:0;
   padding-top:40vh;
 }
+
+footer{
+  height: 50px;
+  text-align: center;
+  background-color: #CC5500;
+}
+
+p{
+  padding: 10px;
+}
+
